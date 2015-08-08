@@ -1,3 +1,4 @@
 matias:
   name: Matias Pan
   email: matias.pan26@gmail.com
+  password_digest: <%= Member.digest('password') %>
