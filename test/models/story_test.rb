@@ -1,7 +1,13 @@
 require 'test_helper'
 
 class StoryTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  def setup
+	@story = Story.new(body: "".ljust(140, "abcd"))
+  end
+
+  test "story should be valid" do
+	assert @story.valid?
+  end
+
 end
