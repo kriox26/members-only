@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddIndexToMembersEmail	db/migrate/20150808203429_add_index_to_members_email.rb	/^class AddIndexToMembersEmail < ActiveRecord::Migration$/;"	c
+AddMemberToStories	db/migrate/20150808202630_add_member_to_stories.rb	/^class AddMemberToStories < ActiveRecord::Migration$/;"	c
+AddPasswordDigestToMembers	db/migrate/20150808202721_add_password_digest_to_members.rb	/^class AddPasswordDigestToMembers < ActiveRecord::Migration$/;"	c
+AddRememberDigestToMembers	db/migrate/20150809141731_add_remember_digest_to_members.rb	/^class AddRememberDigestToMembers < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MembersOnly
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateMembers	db/migrate/20150808202338_create_members.rb	/^class CreateMembers < ActiveRecord::Migration$/;"	c
+CreateStories	db/migrate/20150808202501_create_stories.rb	/^class CreateStories < ActiveRecord::Migration$/;"	c
+Member	app/models/member.rb	/^class Member < ActiveRecord::Base$/;"	c
+MemberTest	test/models/member_test.rb	/^class MemberTest < ActiveSupport::TestCase$/;"	c
+MembersOnly	config/application.rb	/^module MembersOnly$/;"	m
+SessionController	app/controllers/session_controller.rb	/^class SessionController < ApplicationController$/;"	c
+SessionControllerTest	test/controllers/session_controller_test.rb	/^class SessionControllerTest < ActionController::TestCase$/;"	c
+SessionHelper	app/helpers/session_helper.rb	/^module SessionHelper$/;"	m
+Story	app/models/story.rb	/^class Story < ActiveRecord::Base$/;"	c
+StoryTest	test/models/story_test.rb	/^class StoryTest < ActiveSupport::TestCase$/;"	c
+change	db/migrate/20150808202338_create_members.rb	/^  def change$/;"	f	class:CreateMembers
+change	db/migrate/20150808202501_create_stories.rb	/^  def change$/;"	f	class:CreateStories
+change	db/migrate/20150808202630_add_member_to_stories.rb	/^  def change$/;"	f	class:AddMemberToStories
+change	db/migrate/20150808202721_add_password_digest_to_members.rb	/^  def change$/;"	f	class:AddPasswordDigestToMembers
+change	db/migrate/20150808203429_add_index_to_members_email.rb	/^  def change$/;"	f	class:AddIndexToMembersEmail
+change	db/migrate/20150809141731_add_remember_digest_to_members.rb	/^  def change$/;"	f	class:AddRememberDigestToMembers
+digest	app/models/member.rb	/^  def Member.digest(string)$/;"	F	class:Member
+full_title	app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
+new	app/controllers/session_controller.rb	/^  def new$/;"	f	class:SessionController
+new_token	app/models/member.rb	/^  def User.new_token$/;"	F	class:Member
+remember	app/models/member.rb	/^  def remember$/;"	f	class:Member
+setup	test/models/member_test.rb	/^  def setup$/;"	f	class:MemberTest
+setup	test/models/story_test.rb	/^  def setup$/;"	f	class:StoryTest
