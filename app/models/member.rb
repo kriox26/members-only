@@ -30,4 +30,8 @@ class Member < ActiveRecord::Base
 	update_attribute(:remember_digest, Member.digest(remember_token))
   end
 
+  def forget
+	update_attribute(:remember_digest, nil)
+  end
+
 end
