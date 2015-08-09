@@ -183,3 +183,28 @@ input{
   width: auto;
   margin-left: 0;
 }
+
+/* story */
+.stories{
+  list-style: none;
+  margin: 0;
+  li{
+	overflow: auto;
+	border-bottom: 1px solid $gray-lighter;
+	margin-bottom: 10px;
+  }
+}
+
+.story-body{
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.member-name{
+  font-size: 0.9em;
+  overflow: auto;
+  border-bottom: 1px solid #ff2054;
+  margin-bottom: 10px;
+}

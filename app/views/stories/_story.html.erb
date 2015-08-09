@@ -1,0 +1,16 @@
+<li>
+  <%# <span class="glyphicon glyphicon-time"></span> Story created at: <%= story.created_at.strftime("%d %b %y") %1> %>
+  <span class="glyphicon glyphicon-time"></span> Story created <%= distance_of_time_in_words(Time.now, story.created_at) %> ago
+  <div class="panel panel-default">
+	<p class="story-body"><%= story.body %></p>
+	<p class="text-muted">
+	  <% if logged_in? %>
+		<p class="pull-right member-name">
+		  <span class="glyphicon glyphicon-star"></span> Author: <%= Member.find(story.member_id).name %>
+		</p>
+	  <% else %>
+		<p class="text-danger pull-left"><small>You need to be logged in to view the author of this story</small></p>
+	  <% end %>
+	</p>
+  </div>
+</li>
