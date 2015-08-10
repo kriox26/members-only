@@ -205,6 +205,9 @@ input{
 .member-name{
   font-size: 0.9em;
   overflow: auto;
-  border-bottom: 1px solid #ff2054;
-  margin-bottom: 10px;
+  border-top: 1px solid transparent;
+}
+
+.my-box{
+  padding: 10px 10px 10px 10px;
 }
