@@ -16,7 +16,7 @@ class StoriesController < ApplicationController
   end
 
   def index
-	@stories = Story.paginate(page: params[:page]).order('created_at DESC')
+	@stories = Story.paginate(page: params[:page]).order(created_at: :desc)
   end
 
   private
